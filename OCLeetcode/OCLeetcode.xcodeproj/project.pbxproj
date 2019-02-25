@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAB0791422218BF8005F39B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB0791322218BF8005F39B0 /* AppDelegate.m */; };
+		AAB0791722218BF8005F39B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB0791622218BF8005F39B0 /* ViewController.m */; };
+		AAB0791A22218BF8005F39B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB0791822218BF8005F39B0 /* Main.storyboard */; };
+		AAB0791C22218BF9005F39B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAB0791B22218BF9005F39B0 /* Assets.xcassets */; };
+		AAB0791F22218BF9005F39B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB0791D22218BF9005F39B0 /* LaunchScreen.storyboard */; };
+		AAB0792222218BFA005F39B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB0792122218BFA005F39B0 /* main.m */; };
+		AAB0792C22218BFA005F39B0 /* OCLeetcodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB0792B22218BFA005F39B0 /* OCLeetcodeTests.m */; };
+		AAB0793822218CC0005F39B0 /* LinkedIn.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB0793722218CC0005F39B0 /* LinkedIn.m */; };
+		AAB0793B222198DD005F39B0 /* LinkedInSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB0793A222198DD005F39B0 /* LinkedInSwift.swift */; };
+		AAB0793D222199FF005F39B0 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB0793C222199FF005F39B0 /* DataModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAB0792822218BFA005F39B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAB0790722218BF8005F39B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAB0790E22218BF8005F39B0;
+			remoteInfo = OCLeetcode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AAB0790F22218BF8005F39B0 /* OCLeetcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCLeetcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAB0791222218BF8005F39B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AAB0791322218BF8005F39B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AAB0791522218BF8005F39B0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AAB0791622218BF8005F39B0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AAB0791922218BF8005F39B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAB0791B22218BF9005F39B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAB0791E22218BF9005F39B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAB0792022218BFA005F39B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAB0792122218BFA005F39B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AAB0792722218BFA005F39B0 /* OCLeetcodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCLeetcodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAB0792B22218BFA005F39B0 /* OCLeetcodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCLeetcodeTests.m; sourceTree = "<group>"; };
+		AAB0792D22218BFA005F39B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAB0793622218CC0005F39B0 /* LinkedIn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkedIn.h; sourceTree = "<group>"; };
+		AAB0793722218CC0005F39B0 /* LinkedIn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkedIn.m; sourceTree = "<group>"; };
+		AAB07939222198DC005F39B0 /* OCLeetcode-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OCLeetcode-Bridging-Header.h"; sourceTree = "<group>"; };
+		AAB0793A222198DD005F39B0 /* LinkedInSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedInSwift.swift; sourceTree = "<group>"; };
+		AAB0793C222199FF005F39B0 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAB0790C22218BF8005F39B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB0792422218BFA005F39B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAB0790622218BF8005F39B0 = {
+			isa = PBXGroup;
+			children = (
+				AAB0791122218BF8005F39B0 /* OCLeetcode */,
+				AAB0792A22218BFA005F39B0 /* OCLeetcodeTests */,
+				AAB0791022218BF8005F39B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAB0791022218BF8005F39B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAB0790F22218BF8005F39B0 /* OCLeetcode.app */,
+				AAB0792722218BFA005F39B0 /* OCLeetcodeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAB0791122218BF8005F39B0 /* OCLeetcode */ = {
+			isa = PBXGroup;
+			children = (
+				AAB0791222218BF8005F39B0 /* AppDelegate.h */,
+				AAB0791322218BF8005F39B0 /* AppDelegate.m */,
+				AAB0791522218BF8005F39B0 /* ViewController.h */,
+				AAB0791622218BF8005F39B0 /* ViewController.m */,
+				AAB0791822218BF8005F39B0 /* Main.storyboard */,
+				AAB0791B22218BF9005F39B0 /* Assets.xcassets */,
+				AAB0791D22218BF9005F39B0 /* LaunchScreen.storyboard */,
+				AAB0792022218BFA005F39B0 /* Info.plist */,
+				AAB0792122218BFA005F39B0 /* main.m */,
+				AAB0793622218CC0005F39B0 /* LinkedIn.h */,
+				AAB0793722218CC0005F39B0 /* LinkedIn.m */,
+				AAB0793A222198DD005F39B0 /* LinkedInSwift.swift */,
+				AAB07939222198DC005F39B0 /* OCLeetcode-Bridging-Header.h */,
+				AAB0793C222199FF005F39B0 /* DataModel.swift */,
+			);
+			path = OCLeetcode;
+			sourceTree = "<group>";
+		};
+		AAB0792A22218BFA005F39B0 /* OCLeetcodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAB0792B22218BFA005F39B0 /* OCLeetcodeTests.m */,
+				AAB0792D22218BFA005F39B0 /* Info.plist */,
+			);
+			path = OCLeetcodeTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAB0790E22218BF8005F39B0 /* OCLeetcode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAB0793022218BFA005F39B0 /* Build configuration list for PBXNativeTarget "OCLeetcode" */;
+			buildPhases = (
+				AAB0790B22218BF8005F39B0 /* Sources */,
+				AAB0790C22218BF8005F39B0 /* Frameworks */,
+				AAB0790D22218BF8005F39B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCLeetcode;
+			productName = OCLeetcode;
+			productReference = AAB0790F22218BF8005F39B0 /* OCLeetcode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAB0792622218BFA005F39B0 /* OCLeetcodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAB0793322218BFA005F39B0 /* Build configuration list for PBXNativeTarget "OCLeetcodeTests" */;
+			buildPhases = (
+				AAB0792322218BFA005F39B0 /* Sources */,
+				AAB0792422218BFA005F39B0 /* Frameworks */,
+				AAB0792522218BFA005F39B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAB0792922218BFA005F39B0 /* PBXTargetDependency */,
+			);
+			name = OCLeetcodeTests;
+			productName = OCLeetcodeTests;
+			productReference = AAB0792722218BFA005F39B0 /* OCLeetcodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAB0790722218BF8005F39B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = youdao;
+				TargetAttributes = {
+					AAB0790E22218BF8005F39B0 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+					AAB0792622218BFA005F39B0 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = AAB0790E22218BF8005F39B0;
+					};
+				};
+			};
+			buildConfigurationList = AAB0790A22218BF8005F39B0 /* Build configuration list for PBXProject "OCLeetcode" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAB0790622218BF8005F39B0;
+			productRefGroup = AAB0791022218BF8005F39B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAB0790E22218BF8005F39B0 /* OCLeetcode */,
+				AAB0792622218BFA005F39B0 /* OCLeetcodeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAB0790D22218BF8005F39B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB0791F22218BF9005F39B0 /* LaunchScreen.storyboard in Resources */,
+				AAB0791C22218BF9005F39B0 /* Assets.xcassets in Resources */,
+				AAB0791A22218BF8005F39B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB0792522218BFA005F39B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAB0790B22218BF8005F39B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB0791722218BF8005F39B0 /* ViewController.m in Sources */,
+				AAB0792222218BFA005F39B0 /* main.m in Sources */,
+				AAB0791422218BF8005F39B0 /* AppDelegate.m in Sources */,
+				AAB0793822218CC0005F39B0 /* LinkedIn.m in Sources */,
+				AAB0793B222198DD005F39B0 /* LinkedInSwift.swift in Sources */,
+				AAB0793D222199FF005F39B0 /* DataModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB0792322218BFA005F39B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB0792C22218BFA005F39B0 /* OCLeetcodeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAB0792922218BFA005F39B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAB0790E22218BF8005F39B0 /* OCLeetcode */;
+			targetProxy = AAB0792822218BFA005F39B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AAB0791822218BF8005F39B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAB0791922218BF8005F39B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAB0791D22218BF9005F39B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAB0791E22218BF9005F39B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAB0792E22218BFA005F39B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AAB0792F22218BFA005F39B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAB0793122218BFA005F39B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5SPXP4P28U;
+				INFOPLIST_FILE = OCLeetcode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.youdao.OCLeetcode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OCLeetcode/OCLeetcode-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAB0793222218BFA005F39B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5SPXP4P28U;
+				INFOPLIST_FILE = OCLeetcode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.youdao.OCLeetcode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OCLeetcode/OCLeetcode-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AAB0793422218BFA005F39B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5SPXP4P28U;
+				INFOPLIST_FILE = OCLeetcodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.youdao.OCLeetcodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCLeetcode.app/OCLeetcode";
+			};
+			name = Debug;
+		};
+		AAB0793522218BFA005F39B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5SPXP4P28U;
+				INFOPLIST_FILE = OCLeetcodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.youdao.OCLeetcodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCLeetcode.app/OCLeetcode";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAB0790A22218BF8005F39B0 /* Build configuration list for PBXProject "OCLeetcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAB0792E22218BFA005F39B0 /* Debug */,
+				AAB0792F22218BFA005F39B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAB0793022218BFA005F39B0 /* Build configuration list for PBXNativeTarget "OCLeetcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAB0793122218BFA005F39B0 /* Debug */,
+				AAB0793222218BFA005F39B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAB0793322218BFA005F39B0 /* Build configuration list for PBXNativeTarget "OCLeetcodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAB0793422218BFA005F39B0 /* Debug */,
+				AAB0793522218BFA005F39B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAB0790722218BF8005F39B0 /* Project object */;
+}
