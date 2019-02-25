@@ -8,6 +8,12 @@
 
 import Foundation
 
-struct TreeNode {
-    <#fields#>
+class TreeNode {
+    var right:TreeNode?
+    var left:TreeNode?
+    var value:String
+    
+    init(value:String) {
+        self.value = value
+    }
 }

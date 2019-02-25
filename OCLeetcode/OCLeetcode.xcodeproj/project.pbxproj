@@ -17,6 +17,7 @@
 		AAB0793822218CC0005F39B0 /* LinkedIn.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB0793722218CC0005F39B0 /* LinkedIn.m */; };
 		AAB0793B222198DD005F39B0 /* LinkedInSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB0793A222198DD005F39B0 /* LinkedInSwift.swift */; };
 		AAB0793D222199FF005F39B0 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB0793C222199FF005F39B0 /* DataModel.swift */; };
+		AAB079402223DFBA005F39B0 /* DataStructure.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB0793F2223DFBA005F39B0 /* DataStructure.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		AAB07939222198DC005F39B0 /* OCLeetcode-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OCLeetcode-Bridging-Header.h"; sourceTree = "<group>"; };
 		AAB0793A222198DD005F39B0 /* LinkedInSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedInSwift.swift; sourceTree = "<group>"; };
 		AAB0793C222199FF005F39B0 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		AAB0793E2223DFBA005F39B0 /* DataStructure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataStructure.h; sourceTree = "<group>"; };
+		AAB0793F2223DFBA005F39B0 /* DataStructure.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataStructure.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 				AAB0793A222198DD005F39B0 /* LinkedInSwift.swift */,
 				AAB07939222198DC005F39B0 /* OCLeetcode-Bridging-Header.h */,
 				AAB0793C222199FF005F39B0 /* DataModel.swift */,
+				AAB0793E2223DFBA005F39B0 /* DataStructure.h */,
+				AAB0793F2223DFBA005F39B0 /* DataStructure.m */,
 			);
 			path = OCLeetcode;
 			sourceTree = "<group>";
@@ -222,6 +227,7 @@
 				AAB0791422218BF8005F39B0 /* AppDelegate.m in Sources */,
 				AAB0793822218CC0005F39B0 /* LinkedIn.m in Sources */,
 				AAB0793B222198DD005F39B0 /* LinkedInSwift.swift in Sources */,
+				AAB079402223DFBA005F39B0 /* DataStructure.m in Sources */,
 				AAB0793D222199FF005F39B0 /* DataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
