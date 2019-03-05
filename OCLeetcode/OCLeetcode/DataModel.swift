@@ -17,3 +17,13 @@ class TreeNode {
         self.value = value
     }
 }
+
+class ListNode {
+    var value:Int
+    var next:ListNode?
+    
+    init(value:Int) {
+        self.value = value
+        self.next = nil
+    }
+}
