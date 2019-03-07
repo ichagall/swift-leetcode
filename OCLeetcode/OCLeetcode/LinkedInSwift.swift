@@ -82,25 +82,44 @@ class LinkedInSwift {
     }
     //leetcode 234,判断是否是回文linkedlist
     func isPalindrome(_ head:ListNode?) -> Bool {
-        var preHead:ListNode? = ListNode(value:0)
-        preHead!.next = head
-        var cur = head, pre:ListNode? = nil
-        while cur != nil {
-            let tmp = cur?.next
-            cur?.next = pre
-            pre = cur
-            cur = tmp
+        guard let tmp = head, tmp.next != nil else {
+            return true
         }
-        while pre != nil {
-            if pre?.value != preHead?.next?.value {
+        var fast = head, slow = head
+        while fast != nil , fast?.next != nil {
+            fast = fast?.next?.next
+            slow = slow?.next
+        }
+        
+        fast = head
+        slow = reverseLinkedList(slow)
+    
+        while slow != nil {
+            if fast?.value != slow?.value {
                 return false
             } else {
-                pre = pre?.next
-                preHead = preHead?.next
+                fast = fast?.next
+                slow = slow?.next
             }
         }
         return true
     }
     
-    //leetcode 297
+    //leetcode 237,delete a node in a linked list-done by java
+   
+    //TODO leetcode 382,linked list random node
+    func getRandom(_ head:ListNode?) -> Int {
+        var cur = head
+        var result = cur?.value
+        var n = 2
+        while cur != nil {
+            n += 1
+           // Int.r
+        }
+    }
+    
+    // leetcode 23 merge K sorted linkedlist
+    //leetcode 21,merge 2 sorted list
+    
+    //leetcode 138,copy linkedlist with random pointer
 }

@@ -18,6 +18,7 @@
 		AAB0793B222198DD005F39B0 /* LinkedInSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB0793A222198DD005F39B0 /* LinkedInSwift.swift */; };
 		AAB0793D222199FF005F39B0 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB0793C222199FF005F39B0 /* DataModel.swift */; };
 		AAB079402223DFBA005F39B0 /* DataStructure.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB0793F2223DFBA005F39B0 /* DataStructure.m */; };
+		AAB66BFC222FC279005B5095 /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB66BFB222FC279005B5095 /* BinaryTree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		AAB0793C222199FF005F39B0 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		AAB0793E2223DFBA005F39B0 /* DataStructure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataStructure.h; sourceTree = "<group>"; };
 		AAB0793F2223DFBA005F39B0 /* DataStructure.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataStructure.m; sourceTree = "<group>"; };
+		AAB66BFB222FC279005B5095 /* BinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				AAB0793C222199FF005F39B0 /* DataModel.swift */,
 				AAB0793E2223DFBA005F39B0 /* DataStructure.h */,
 				AAB0793F2223DFBA005F39B0 /* DataStructure.m */,
+				AAB66BFB222FC279005B5095 /* BinaryTree.swift */,
 			);
 			path = OCLeetcode;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAB66BFC222FC279005B5095 /* BinaryTree.swift in Sources */,
 				AAB0791722218BF8005F39B0 /* ViewController.m in Sources */,
 				AAB0792222218BFA005F39B0 /* main.m in Sources */,
 				AAB0791422218BF8005F39B0 /* AppDelegate.m in Sources */,
