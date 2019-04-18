@@ -27,3 +27,15 @@ class ListNode {
         self.next = nil
     }
 }
+
+class LinkedListNode {
+    var value:Int
+    var next:LinkedListNode?
+    var random:LinkedListNode?
+    
+    init(value:Int) {
+        self.value = value
+        self.next = nil
+        self.random = nil;
+    }
+}

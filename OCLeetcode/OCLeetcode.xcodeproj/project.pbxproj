@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA175FA422630DFB00EDA5C6 /* MSInSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA175FA322630DFB00EDA5C6 /* MSInSwift.swift */; };
+		AA3626572268587700FCC9E1 /* LRUCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3626562268587700FCC9E1 /* LRUCache.swift */; };
+		AA36265A226870A700FCC9E1 /* YNNSCache.m in Sources */ = {isa = PBXBuildFile; fileRef = AA362659226870A700FCC9E1 /* YNNSCache.m */; };
 		AAB0791422218BF8005F39B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB0791322218BF8005F39B0 /* AppDelegate.m */; };
 		AAB0791722218BF8005F39B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB0791622218BF8005F39B0 /* ViewController.m */; };
 		AAB0791A22218BF8005F39B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB0791822218BF8005F39B0 /* Main.storyboard */; };
@@ -32,6 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA175FA322630DFB00EDA5C6 /* MSInSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSInSwift.swift; sourceTree = "<group>"; };
+		AA3626562268587700FCC9E1 /* LRUCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRUCache.swift; sourceTree = "<group>"; };
+		AA362658226870A700FCC9E1 /* YNNSCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YNNSCache.h; sourceTree = "<group>"; };
+		AA362659226870A700FCC9E1 /* YNNSCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YNNSCache.m; sourceTree = "<group>"; };
 		AAB0790F22218BF8005F39B0 /* OCLeetcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCLeetcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAB0791222218BF8005F39B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AAB0791322218BF8005F39B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -111,6 +118,10 @@
 				AAB0793E2223DFBA005F39B0 /* DataStructure.h */,
 				AAB0793F2223DFBA005F39B0 /* DataStructure.m */,
 				AAB66BFB222FC279005B5095 /* BinaryTree.swift */,
+				AA175FA322630DFB00EDA5C6 /* MSInSwift.swift */,
+				AA3626562268587700FCC9E1 /* LRUCache.swift */,
+				AA362658226870A700FCC9E1 /* YNNSCache.h */,
+				AA362659226870A700FCC9E1 /* YNNSCache.m */,
 			);
 			path = OCLeetcode;
 			sourceTree = "<group>";
@@ -229,9 +240,12 @@
 				AAB0791722218BF8005F39B0 /* ViewController.m in Sources */,
 				AAB0792222218BFA005F39B0 /* main.m in Sources */,
 				AAB0791422218BF8005F39B0 /* AppDelegate.m in Sources */,
+				AA3626572268587700FCC9E1 /* LRUCache.swift in Sources */,
 				AAB0793822218CC0005F39B0 /* LinkedIn.m in Sources */,
 				AAB0793B222198DD005F39B0 /* LinkedInSwift.swift in Sources */,
 				AAB079402223DFBA005F39B0 /* DataStructure.m in Sources */,
+				AA36265A226870A700FCC9E1 /* YNNSCache.m in Sources */,
+				AA175FA422630DFB00EDA5C6 /* MSInSwift.swift in Sources */,
 				AAB0793D222199FF005F39B0 /* DataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
