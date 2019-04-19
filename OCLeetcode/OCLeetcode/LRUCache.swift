@@ -27,6 +27,21 @@ class LRUCache : NSObject{
             let last:String = _orderList.removeLast()
             _storage.removeValue(forKey: last)
         }
+        updateLRUList(aKey: aKey)
+        _storage[aKey]  = object
+        lock.unlock()
+    }
+    
+    func object(forKey:String) -> Any? {
+        updateLRUList(aKey: forKey)
+        return _storage[forKey]
+    }
+    
+    func removeObject(key:String) {
+        _storage.removeValue(forKey: key)
+    }
+    
+    private func updateLRUList(aKey :String) {
         if _storage[aKey] != nil {
             //update orderlist
             _orderList = _orderList.filter { $0 != aKey}
@@ -34,13 +49,8 @@ class LRUCache : NSObject{
         } else
         {
             _orderList.insert(aKey, at: 0)
-            _storage[aKey]  = object
+            //_storage[aKey]  = object
         }
-        lock.unlock()
-    }
-    
-    func object(forKey:String) -> Any? {
-        return _storage[forKey]
     }
     
 }
