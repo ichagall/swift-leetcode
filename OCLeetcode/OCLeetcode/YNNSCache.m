@@ -57,6 +57,7 @@
 
 - (void)setCache:(NSObject*)value forKey:(id)key
 {
+    [_lock lock];
     YNCacheEntry *entry = [_entryDict objectForKey:key];
     if (entry) {
         // update linkedlist
@@ -79,6 +80,7 @@
             _tail = _head.nextEntry;
         }
     }
+    [_lock unlock];
 }
 
 - (void)removeCacheForKey:(NSObject*)key
@@ -94,10 +96,12 @@
 
 - (YNCacheEntry*)cacheForKey:(id)key
 {
+    [_lock lock];
     YNCacheEntry *entry = [_entryDict objectForKey:key];
     if (entry) {
         [self updateLinkedList:entry];
     }
+    [_lock unlock];
     return entry;
 }
 
