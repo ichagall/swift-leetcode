@@ -22,6 +22,7 @@
 		AAB0793D222199FF005F39B0 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB0793C222199FF005F39B0 /* DataModel.swift */; };
 		AAB079402223DFBA005F39B0 /* DataStructure.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB0793F2223DFBA005F39B0 /* DataStructure.m */; };
 		AAB66BFC222FC279005B5095 /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB66BFB222FC279005B5095 /* BinaryTree.swift */; };
+		AAB8B13B2276EC2F0055FD34 /* Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB8B13A2276EC2F0055FD34 /* Sort.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		AAB0793E2223DFBA005F39B0 /* DataStructure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataStructure.h; sourceTree = "<group>"; };
 		AAB0793F2223DFBA005F39B0 /* DataStructure.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataStructure.m; sourceTree = "<group>"; };
 		AAB66BFB222FC279005B5095 /* BinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
+		AAB8B13A2276EC2F0055FD34 /* Sort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sort.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				AA3626562268587700FCC9E1 /* LRUCache.swift */,
 				AA362658226870A700FCC9E1 /* YNNSCache.h */,
 				AA362659226870A700FCC9E1 /* YNNSCache.m */,
+				AAB8B13A2276EC2F0055FD34 /* Sort.swift */,
 			);
 			path = OCLeetcode;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 				AAB0792222218BFA005F39B0 /* main.m in Sources */,
 				AAB0791422218BF8005F39B0 /* AppDelegate.m in Sources */,
 				AA3626572268587700FCC9E1 /* LRUCache.swift in Sources */,
+				AAB8B13B2276EC2F0055FD34 /* Sort.swift in Sources */,
 				AAB0793822218CC0005F39B0 /* LinkedIn.m in Sources */,
 				AAB0793B222198DD005F39B0 /* LinkedInSwift.swift in Sources */,
 				AAB079402223DFBA005F39B0 /* DataStructure.m in Sources */,
